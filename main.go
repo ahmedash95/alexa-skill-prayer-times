@@ -11,7 +11,6 @@ import (
 func main() {
 	alexa := alexa.New()
 	alexa.AddIntentResponse("ListPrayingTimes", handleListPrayingTimesResponse)
-	alexa.AddIntentResponse("GetJobName", handleListPrayingTimesResponse)
 	alexa.AddIntentResponse("SetUserInfo", handleSetUserInfoIntent)
 	alexa.Run("3000")
 }
